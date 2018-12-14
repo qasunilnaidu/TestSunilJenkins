@@ -7,16 +7,14 @@ public class Class1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		WebDriver driver = new FirefoxDriver();
-//		driver.get("https://www.google.com/");
-//		driver.manage().window().maximize();
-//		System.out.println("Google page Opened");
-//		driver.close();
-//		System.out.println("Driver closed");
+		WebDriver driver = new FirefoxDriver();
+		driver.get("https://www.google.com/");
+		driver.manage().window().maximize();
+		System.out.println("Google page Opened");
+		driver.close();
+		System.out.println("Driver closed");
 		
-		int a=10,b=20;
-		int c;
-		c=a+b;
+
 	}
 
 }
