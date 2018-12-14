@@ -23,9 +23,10 @@ public class HRM_Login {
 		String Title = driver.getTitle();
 		System.out.println(Title);
 		Thread.sleep(1000);
-		driver.findElement(By.xpath("//input[@id='welcome']")).click();
+		driver.findElement(By.xpath("//a[@id='welcome']")).click();
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//a[text()='Logout']")).click();
+		System.out.println("Logout Sucessfully");
 		
 		
 	}
