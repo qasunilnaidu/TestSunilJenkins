@@ -27,7 +27,8 @@ public class HRM_Login {
 		Thread.sleep(1000);
 		String han =driver.getCurrentUrl();
 		System.out.println(han);
-		
+		String han1 =driver.getCurrentUrl();
+		System.out.println(han);
 		driver.findElement(By.xpath("//a[text()='Logout']")).click();
 		System.out.println("Logout Sucessfully");
 		
