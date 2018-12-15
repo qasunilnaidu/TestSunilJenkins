@@ -11,8 +11,7 @@ public class Class1 {
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
 		System.out.println("Google page Opened");
-		driver.close();
-		System.out.println("Driver closed");
+		
 		
 
 	}

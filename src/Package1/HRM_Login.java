@@ -25,6 +25,9 @@ public class HRM_Login {
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//a[@id='welcome']")).click();
 		Thread.sleep(1000);
+		String han =driver.getCurrentUrl();
+		System.out.println(han);
+		
 		driver.findElement(By.xpath("//a[text()='Logout']")).click();
 		System.out.println("Logout Sucessfully");
 		
